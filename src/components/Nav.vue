@@ -1,5 +1,5 @@
 <template>
-  <nav class="border shadow p-6 fixed w-full z-50 top-0">
+  <nav class="border shadow p-6 fixed w-full z-50 top-0 bg-white">
     <div class="flex justify-between">
       <div id="logo" class="ml-4 font-semibold text-2xl text-blue-900">
         <span class="italic font-bold text-blue-600">MashBah</span>-Holdings Limited

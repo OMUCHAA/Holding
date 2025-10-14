@@ -1,8 +1,27 @@
 <template>
   <Nav />
-  <div class="bg-blue-200 h-64 mt-20"></div>
+  <section class="pt-36 text-center py-20 bg-gradient-to-bl from-blue-950 via-blue-500 to-blue-950 text-white flex flex-col justify-center items-center">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">MashBah Holdings</h1>
+      
+      <p class="text-lg md:text-2xl mb-6">Empowering Growth Across Industries</p>
+      <a
+        href="#subsidiaries"
+        class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-blue-900 transition-colors hover:text-white duration-600"
+      >
+        Explore Our Companies
+      </a>
+    </section>
+    <Subsidiaries/>
+    <About/>
+    <Contacts/>
+    <Footer/>
 </template>
 
+ 
 <script setup>
+import Footer from "./Footer.vue";
+import Contacts from "./Contacts.vue";
+import About from "./About.vue";
+import Subsidiaries from "./Subsidiaries.vue";
 import Nav from "./Nav.vue";
 </script>
