@@ -1,7 +1,13 @@
 <template>
   <Nav />
-  <RouterView />
-  <Footer/>
+  <RouterView/>
+  <!-- 
+  <Home/>
+  <Subsidiaries />
+  <About />
+  <Contacts />
+  -->
+   <Footer/>
 </template>
 
 <script setup>
