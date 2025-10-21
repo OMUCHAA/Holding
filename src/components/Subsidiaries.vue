@@ -1,5 +1,6 @@
 <template>
-  <section id="subsidiaries" class="py-20 bg-gray-100 text-center">
+  <Nav/>
+  <section id="subsidiaries" class="py-28 bg-gray-100 text-center">
     <h2 class="text-3xl font-bold mb-10 text-blue-700">Our Subsidiaries</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
@@ -15,10 +16,11 @@
 </template>
 
 <script setup>
+import Nav from './Nav.vue';
 const companies = [
-  { name: "Omucha Tech", description: "Innovating technology solutions for businesses and communities." },
-  { name: "Omucha Travel", description: "Offering world-class travel and tour experiences across Kenya and beyond." },
-  { name: "Omucha Cement", description: "Delivering high-quality cement and construction materials for a stronger future." },
-  { name: "Omucha Water", description: "Providing safe and sustainable water solutions to households and industries." },
+  { name: "Solar Company", description: "We provide reliable, affordable, and sustainable solar energy solutions designed to help homes and businesses reduce energy costs and environmental impact." },
+  { name: "Paper Industry", description: "Committed to quality and sustainability, we produce high-grade paper products that support diverse industires while prioritizing echo-friendly practices. " },
+  { name: "Delivery Company", description: "we offer a fast reliable and secure delivery services tailored to meet the needs of businesses and individuals, ensurikng your packages arrive on time-every time" },
+  { name: "Water Company", description: "Providing safe and sustainable water solutions to households and industries." },
 ];
 </script>

@@ -1,5 +1,6 @@
 <template>
-  <section id="contact" class="py-20 bg-gradient-to-bl from-blue-950 via-blue-500 to-blue-950 text-white text-center">
+  <Nav/>
+  <section id="contact" class="mt-16 min-h-screen py-20 bg-gradient-to-bl from-blue-950 via-blue-500 to-blue-950 text-white text-center">
     <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
     <p class="mb-6 text-lg">We’d love to hear from you. Reach out for partnerships or inquiries.</p>
 
@@ -15,5 +16,5 @@
 </template>
 
 <script setup>
-
+import Nav from './Nav.vue';
 </script>
