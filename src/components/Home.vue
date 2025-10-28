@@ -33,7 +33,7 @@
           solutions designed to help homes and businesses reduce energy costs
           and environmental impact.
         </p>
-        <button
+        <button @click="$router.push('/solar')"
           class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-500 transition w-56 mx-auto"
         >
           Learn More
@@ -49,7 +49,7 @@
           products that support diverse industires while prioritizing
           echo-friendly practices.
         </p>
-        <button
+        <button @click="$router.push('/paper')"
           class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-500 transition w-56 mx-auto"
         >
           Learn More
@@ -65,7 +65,7 @@
           the needs of businesses and individuals, ensurikng your packages
           arrive on time-every time.
         </p>
-        <button
+        <button @click="$router.push('/delivery')"
           class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-500 transition w-56 mx-auto"
         >
           Learn More
@@ -78,7 +78,8 @@
           Providing safe and sustainable water solutions to households and
           industries.
         </p>
-        <button
+
+        <button @click="$router.push('/water')"
           class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-500 transition w-56 mx-auto"
         >
           Learn More
