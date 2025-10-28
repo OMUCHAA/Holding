@@ -128,7 +128,7 @@
   <hr class="h-2 shadow-md bg-blue-700 shadow-blue-400">
   <section class="py-20 text-center min-h-[82vh] md:flex md:items-center md:justify-center gap-20">
     <!-- Contact Details -->
-    <div class="min-h-[75vh] border rounded-lg shadow-lg flex flex-col items-center py-10 px-5 text-blue-800 shadow-blue-600">
+    <div class="min-h-[75vh] md:min-h-[65vh] sm:min-h-[50vh] border rounded-lg shadow-lg flex flex-col mb-10 sm:mb-0 items-center py-10 px-5 text-blue-800 shadow-blue-600">
       <h2 class="text-3xl font-bold mb-6 text-blue-800">Contact Us</h2>
       <p class="mb-6 text-lg">Reach Out to us for any questions, assistance or clarification.</p>
       <div class="mr-20">
@@ -146,7 +146,7 @@
     </div>
     <!-- Form -->
     <div id="contact"
-      class="min-h-[75vh] py-6 px-5 bg-gradient-to-bl from-blue-950 via-blue-500 to-blue-950 text-white text-center shadow-lg rounded-lg">
+      class="min-h-[75vh] md:min-h-[65vh] sm:min-h-[50vh] py-6 px-5 bg-gradient-to-bl from-blue-950 via-blue-500 to-blue-950 text-white text-center shadow-lg rounded-lg">
 
       <h2 class="text-3xl font-bold">Message Us...</h2>
       <p class="mb-6 text-lg">
