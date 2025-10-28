@@ -16,7 +16,7 @@
       <div class="bg-white p-6 rounded-lg shadow-md">
         <h2 class="text-2xl font-semibold mb-2">About Us</h2>
         <p class="text-blue-700">
-          We have over 20 years of experience in providing innovative water management solutions.
+          We have many years of experience in providing innovative water management solutions.
         </p>
       </div>
     </div>
