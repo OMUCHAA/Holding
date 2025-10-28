@@ -3,7 +3,7 @@
     <div class="flex justify-between">
       <div id="logo" class="ml-4 font-semibold text-2xl md:text-3xl text-blue-900">
         <span class="italic font-bold text-blue-600">MashBah</span>-Holdings
-        Kenya
+        <span class="hidden sm:inline md:inline lg:inline">Kenya</span>
       </div>
 
       <!--Horrizontal Menu Hidden on small screens-->
@@ -38,8 +38,8 @@
 
       <!--What is going to be visible on smaller screens-->
       <div @click="toggleMenu" class="lg:hidden">
-        <i v-if="!isOpen" class="fa-solid fa-bars sm:text-2xl md:text-3xl text-blue-900"></i>
-        <i v-if="isOpen" class="fa-solid fa-xmark sm:text-2xl md:text-3xl text-blue-700"></i>
+        <i v-if="!isOpen" class="fa-solid fa-bars text-xl sm:text-2xl md:text-3xl text-blue-900"></i>
+        <i v-if="isOpen" class="fa-solid fa-xmark text-xl sm:text-2xl md:text-3xl text-blue-700"></i>
       </div>
 
       <!--Show the dropdown if the menu is open-->

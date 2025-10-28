@@ -1,7 +1,7 @@
 <template>
-  <section class="mt-16 py-20 text-center min-h-[82vh] md:flex md:items-center justify-center gap-20">
+  <section class="mt-16 py-20 text-center min-h-[82vh] md:flex md:items-center md:justify-center gap-20">
     <!-- Contact Details -->
-    <div class="border rounded-lg shadow-lg flex flex-col items-center py-10 px-5 text-blue-800 min-h-[70vh]">
+    <div class="min-h-[75vh] border rounded-lg shadow-lg flex flex-col items-center py-10 px-5 text-blue-800 shadow-blue-600">
      <h2 class="text-3xl font-bold mb-6 text-blue-800">Contact Us</h2>
      <p class="mb-6 text-lg">Reach Out to us for any questions, assistance or clarification.</p>
      <div class="mr-20">
@@ -20,11 +20,12 @@
     <!-- Form -->
     <div
       id="contact"
-      class="-mb-20 pb-20 bg-gradient-to-bl from-blue-950 via-blue-500 to-blue-950 text-white text-center shadow-lg rounded-lg"
+      class="min-h-[75vh] py-6 px-5 bg-gradient-to-bl from-blue-950 via-blue-500 to-blue-950 text-white text-center shadow-lg rounded-lg"
     >
-      <h2 class="mt-10 text-3xl font-bold mb-6">Write to Us</h2>
+
+      <h2 class="text-3xl font-bold">Message Us...</h2>
       <p class="mb-6 text-lg">
-        We’d love to hear from you. Reach out for partnerships or inquiries.
+         Reach out for partnerships or inquiries.
       </p>
 
       <form
