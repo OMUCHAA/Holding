@@ -1,7 +1,43 @@
 <template>
-  <footer class="bg-gradient-to-bl from-blue-950 via-blue-700 to-blue-950 text-gray-300 py-8 text-center">
-    <p>© {{ new Date().getFullYear() }} MashBah Holdings. All rights reserved.</p>
-    <a class="hover:text-blue-100" href="#">Back to top</a>
+  <footer class="bg-gradient-to-bl from-black via-yellow-800 to-black text-gray-300 py-8 text-center">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+      
+      <!-- Company Info -->
+      <div>
+        <h2 class="text-2xl font-bold mb-3 text-amber-300">MASHBAH HOLDINGS</h2>
+        <div class="flex md:justify-start justify-center mb-4">
+            <img src="../assets/image.png" alt="Company-Logo" class="h-12">
+        </div>
+        <!--Where after pumping the process after sahii mambo ni baad bana joh dgfgfgf-->
+        <p class="text-amber-400">
+          MashBah Holdings is a diversified company that manages and invests in high-potential businesses across multiple sectors to drive growth and long-term value
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-lg font-semibold mb-3 text-amber-300">Quick Links</h3>
+        <ul class="space-y-2 text-blue-300">
+          <li><router-link to="/" class="hover:text-white transition">Home</router-link></li>
+          <li><router-link to="/contact" class="hover:text-white transition">Contact</router-link></li>
+          <li><router-link to="/about" class="hover:text-white transition">About</router-link></li>
+          <li><router-link to="/services" class="hover:text-white transition">Services</router-link></li>
+          <li><router-link to="/projects" class="hover:text-white transition">Projects</router-link></li>
+        </ul>
+      </div>
+            
+      <!-- Contact Info -->
+      <div class="text-amber-300">
+        <h3 class="text-lg font-bold mb-3">Get in Touch</h3>
+        <p class="text-amber-500"> MSA Rd, Kenya</p>
+        <p class="text-amber-500">+254 780818238</p>
+        <p class="text-amber-500">info@mashbah.com</p>
+      </div>
+    </div>
+    <div class="border-t border-amber-200 flex flex-col justify-center text-amber-100 items-center mt-3 pt-3">
+      <p>© {{ new Date().getFullYear() }} MashBah Holdings. All rights reserved.</p>
+      <a class="hover:text-blue-100" href="#">Back to top</a>
+    </div>
   </footer>
 </template>
 
