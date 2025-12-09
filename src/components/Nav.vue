@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 <template>
   <nav class="border shadow p-6 fixed w-full z-50 top-0 bg-amber-50">
     <div class="flex justify-around items-center">
       <div id="logo" class="ml-4 font-semibold text-2xl md:text-3xl text-gold-900">
         <span class="italic font-bold"><img src="../assets/image.png" class="lg:h-20 md:h-16 h-14" alt="logo"></span>
+=======
+<template @click="">
+  <nav class="border shadow p-6 fixed w-full z-50 top-0 bg-white">
+    <div class="flex justify-between">
+      <div id="logo" class="ml-4 font-semibold text-2xl md:text-3xl text-blue-900">
+        <span class="italic font-bold text-blue-600">MashBah</span>-Holdings
+        <span class="hidden sm:inline md:inline lg:inline">Kenya</span>
+>>>>>>> b71286a0a7eba7a46d76b9fa679320fce73d24a5
       </div>
 
       <!--Horizontal Menu Hidden on small screens-->
@@ -25,8 +34,13 @@
 
       <!--What is going to be visible on smaller screens-->
       <div @click="toggleMenu" class="lg:hidden">
+<<<<<<< HEAD
         <i v-if="!isOpen" class="fa-solid fa-bars text-3xl text-blue-900"></i>
         <i v-if="isOpen" class="fa-solid fa-xmark text-3xl text-blue-700"></i>
+=======
+        <i v-if="!isOpen" class="fa-solid fa-bars text-3xl sm:text-2xl md:text-3xl text-blue-900"></i>
+        <i v-if="isOpen" class="fa-solid fa-xmark text-3xl sm:text-2xl md:text-3xl text-blue-700"></i>
+>>>>>>> b71286a0a7eba7a46d76b9fa679320fce73d24a5
       </div>
 
       <!--Show the dropdown if the menu is open-->
@@ -34,18 +48,18 @@
         v-show="isOpen"
         class="mr-10 text-lg font-semibold absolute top-[72px] right-4 lg:hidden items-center"
       >
-        <ul class="flex flex-col bg-blue-50 p-3 text-blue-900 justify-center items-center md:w-72 rounded shadow">
-          <li @click="closeMenu" class="border-r-0 border-l-0 border-t-0 border-blue-200 w-full px-20 hover:bg-slate-400 hover:text-white transition">
-            <router-link to="/" class="w-full">Home</router-link>
+        <ul class="flex flex-col bg-blue-50 p-3 text-blue-900 justify-center items-center w-64 md:w-72 rounded shadow">
+          <li @click="closeMenu" class="h-9 border-r-0 border-l-0 border-t-0 border-blue-200 w-full hover:bg-slate-400 hover:text-white transition">
+            <router-link to="/" class="w-full h-full inline-block">Home</router-link>
           </li>
-          <li @click="closeMenu" class="border border-r-0 border-l-0 border-b-0 w-full px-20 hover:bg-slate-400 hover:text-white transition">
-            <router-link to="/subsidiaries">Subsidiaries</router-link>
+          <li @click="closeMenu" class="h-9 border border-r-0 border-l-0 border-b-0 w-full hover:bg-slate-400 hover:text-white transition">
+            <router-link to="/subsidiaries" class="w-full h-full inline-block">Subsidiaries</router-link>
           </li>
-          <li @click="closeMenu" class="border border-r-0 border-l-0 border-b-0 w-full px-20 hover:bg-slate-400 hover:text-white transition">
-            <router-link to="/about">About Us</router-link>
+          <li @click="closeMenu" class="h-9 border border-r-0 border-l-0 border-b-0 w-full hover:bg-slate-400 hover:text-white transition">
+            <router-link to="/about" class="w-full h-full inline-block">About Us</router-link>
           </li>
-          <li @click="closeMenu" class="border border-r-0 border-l-0 border-b-0 w-full px-20 hover:bg-slate-400 hover:text-white transition">
-            <router-link to="/contacts">Contacts</router-link>
+          <li @click="closeMenu" class="h-9 border border-r-0 border-l-0 border-b-0 w-full hover:bg-slate-400 hover:text-white transition">
+            <router-link to="/contacts" class="w-full h-full inline-block">Contacts</router-link>
           </li>
         </ul>
       </div>
