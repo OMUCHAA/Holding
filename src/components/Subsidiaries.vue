@@ -3,7 +3,7 @@
     <h2 class="text-3xl font-bold mb-10 text-amber-950">Our Subsidiaries</h2>
 
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto items-stretch"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto items-stretch"
     >
       <div
         class="bg-amber-200 shadow-md rounded-2xl p-6 hover:shadow-xl transition flex flex-col justify-between h-full"
@@ -25,7 +25,7 @@
         class="bg-amber-100 shadow-md rounded-2xl p-6 hover:shadow-xl transition flex flex-col justify-between h-full"
       >
         <h3 class="text-2xl font-semibold mb-3">
-          Paper Industry
+          MashBah Packaging
         </h3>
         <p class="text-gray-600 mb-4">
           Committed to quality and sustainability, we produce high-grade paper

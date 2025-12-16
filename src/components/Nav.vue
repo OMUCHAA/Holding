@@ -1,17 +1,16 @@
-<<<<<<< HEAD
 <template>
   <nav class="border shadow p-6 fixed w-full z-50 top-0 bg-amber-50">
     <div class="flex justify-around items-center">
-      <div id="logo" class="ml-4 font-semibold text-2xl md:text-3xl text-gold-900">
-        <span class="italic font-bold"><img src="../assets/image.png" class="lg:h-20 md:h-16 h-14" alt="logo"></span>
-=======
-<template @click="">
-  <nav class="border shadow p-6 fixed w-full z-50 top-0 bg-white">
-    <div class="flex justify-between">
-      <div id="logo" class="ml-4 font-semibold text-2xl md:text-3xl text-blue-900">
-        <span class="italic font-bold text-blue-600">MashBah</span>-Holdings
-        <span class="hidden sm:inline md:inline lg:inline">Kenya</span>
->>>>>>> b71286a0a7eba7a46d76b9fa679320fce73d24a5
+      <div
+        id="logo"
+        class="ml-4 font-semibold text-2xl md:text-3xl text-gold-900"
+      >
+        <span class="italic font-bold"
+          ><img
+            src="../assets/image.png"
+            class="lg:h-20 md:h-16 h-14"
+            alt="logo"
+        /></span>
       </div>
 
       <!--Horizontal Menu Hidden on small screens-->
@@ -33,33 +32,42 @@
       </ul>
 
       <!--What is going to be visible on smaller screens-->
+      <!-- Mobile Menu Toggle Button (bars only) -->
       <div @click="toggleMenu" class="lg:hidden">
-<<<<<<< HEAD
-        <i v-if="!isOpen" class="fa-solid fa-bars text-3xl text-blue-900"></i>
-        <i v-if="isOpen" class="fa-solid fa-xmark text-3xl text-blue-700"></i>
-=======
-        <i v-if="!isOpen" class="fa-solid fa-bars text-3xl sm:text-2xl md:text-3xl text-blue-900"></i>
-        <i v-if="isOpen" class="fa-solid fa-xmark text-3xl sm:text-2xl md:text-3xl text-blue-700"></i>
->>>>>>> b71286a0a7eba7a46d76b9fa679320fce73d24a5
+        <i v-if="!isOpen" class="fa-solid fa-bars text-3xl text-amber-900"></i>
       </div>
 
-      <!--Show the dropdown if the menu is open-->
+      <!-- Slide-in Mobile Menu -->
       <div
-        v-show="isOpen"
-        class="mr-10 text-lg font-semibold absolute top-[72px] right-4 lg:hidden items-center"
+        class="fixed top-0 right-0 h-full w-1/2 max-w-xs bg-gradient-to-bl from-black via-yellow-800 to-black text-amber-300 p-4 shadow-lg transform transition-transform duration-300 lg:hidden"
+        :class="isOpen ? 'translate-x-0' : 'translate-x-full'"
       >
-        <ul class="flex flex-col bg-blue-50 p-3 text-blue-900 justify-center items-center w-64 md:w-72 rounded shadow">
-          <li @click="closeMenu" class="h-9 border-r-0 border-l-0 border-t-0 border-blue-200 w-full hover:bg-slate-400 hover:text-white transition">
-            <router-link to="/" class="w-full h-full inline-block">Home</router-link>
+        <!-- X Close Button INSIDE Sidebar -->
+        <button @click="closeMenu" class="absolute top-4 left-4">
+          <i class="fa-solid fa-xmark text-3xl text-amber-500"></i>
+        </button>
+
+        <!-- Menu Items -->
+        <ul class="flex flex-col gap-4 mt-16 font-semibold text-lg">
+          <li @click="closeMenu">
+            <router-link to="/" class="block hover:text-blue-600"
+              >Home</router-link
+            >
           </li>
-          <li @click="closeMenu" class="h-9 border border-r-0 border-l-0 border-b-0 w-full hover:bg-slate-400 hover:text-white transition">
-            <router-link to="/subsidiaries" class="w-full h-full inline-block">Subsidiaries</router-link>
+          <li @click="closeMenu">
+            <router-link to="/subsidiaries" class="block hover:text-blue-600"
+              >Subsidiaries</router-link
+            >
           </li>
-          <li @click="closeMenu" class="h-9 border border-r-0 border-l-0 border-b-0 w-full hover:bg-slate-400 hover:text-white transition">
-            <router-link to="/about" class="w-full h-full inline-block">About Us</router-link>
+          <li @click="closeMenu">
+            <router-link to="/about" class="block hover:text-blue-600"
+              >About Us</router-link
+            >
           </li>
-          <li @click="closeMenu" class="h-9 border border-r-0 border-l-0 border-b-0 w-full hover:bg-slate-400 hover:text-white transition">
-            <router-link to="/contacts" class="w-full h-full inline-block">Contacts</router-link>
+          <li @click="closeMenu">
+            <router-link to="/contacts" class="block hover:text-blue-600"
+              >Contacts</router-link
+            >
           </li>
         </ul>
       </div>

@@ -8,7 +8,6 @@
         <div class="flex md:justify-start justify-center mb-4">
             <img src="../assets/image.png" alt="Company-Logo" class="h-12">
         </div>
-        <!--Where after pumping the process after sahii mambo ni baad bana joh dgfgfgf-->
         <p class="text-amber-400">
           MashBah Holdings is a diversified company that manages and invests in high-potential businesses across multiple sectors to drive growth and long-term value
         </p>
@@ -19,10 +18,9 @@
         <h3 class="text-lg font-semibold mb-3 text-amber-300">Quick Links</h3>
         <ul class="space-y-2 text-blue-300">
           <li><router-link to="/" class="hover:text-white transition">Home</router-link></li>
-          <li><router-link to="/contact" class="hover:text-white transition">Contact</router-link></li>
+          <li><router-link to="/contacts" class="hover:text-white transition">Contact</router-link></li>
           <li><router-link to="/about" class="hover:text-white transition">About</router-link></li>
-          <li><router-link to="/services" class="hover:text-white transition">Services</router-link></li>
-          <li><router-link to="/projects" class="hover:text-white transition">Projects</router-link></li>
+          <li><router-link to="/subsidiaries" class="hover:text-white transition">Our Companies</router-link></li>
         </ul>
       </div>
             
