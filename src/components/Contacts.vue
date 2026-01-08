@@ -1,25 +1,26 @@
 <template>
-  <section class="mt-16 py-20 text-center min-h-[82vh] flex items-center justify-center gap-20">
+  <section class="mt-16 py-10 text-center min-h-[82vh] flex justify-center gap-20">
     <!--Contact Details-->
-    <div
-        class="border-amber-600 rounded-lg shadow-lg text-amber-800 shadow-amber-600 flex flex-col items-center py-10 px-5"
+    <div  
+        class="border-amber-600 rounded-lg shadow-lg text-amber-800 shadow-amber-600 flex flex-col items-center justify-center pb-10 px-5"
       >
-        <h2 class="text-3xl font-bold mb-6 text-amber-800">Contact Us</h2>
-        <p class="mb-6 text-lg">
+        <h2 class="md:text-3xl text-2xl font-bold mb-6 mt-3 text-amber-800">Contact Us</h2>
+        <p class="mb-6 md:text-lg">
           Reach Out to us for any questions, assistance or clarification.
         </p>
-        <div class="mr-20">
-          <i class="fa-solid fa-envelope text-4xl text-amber-950"></i>
-          <span class="text-xl">Info@mashbah.com</span><br /><br />
-        </div>
-
-        <div class="mr-24">
-          <i class="fa-solid fa-phone-volume text-4xl text-amber-950"></i>
-          <span class="text-xl">+254 780 818238</span><br /><br />
-        </div>
-        <div class="mr-20">
-          <i class="fa-solid fa-location-dot text-4xl text-amber-950"></i>
-          <span class="text-xl">Lusaka Rd. NAIROBI</span>
+        <div class="flex flex-col justify-center items-center w-full text-center">
+          <div class="text-center border-amber-400 rounded-tr-3xl rounded-tl-3xl border py-4 w-3/5">
+            <i class="fa-solid fa-envelope md:text-4xl text-2xl text-amber-950"></i>
+            <span class="md:text-xl">Info@gmail.com</span><br /><br />
+          </div>
+          <div class="text-center border-amber-400 border py-4 w-3/5">
+            <i class="fa-solid fa-phone-volume md:text-4xl text-2xl text-amber-950"></i>
+            <span class="md:text-xl">+254 780818238</span><br /><br />
+          </div>
+          <div class="text-center border-amber-400 border w-3/5 py-4">
+            <i class="fa-solid fa-location-dot md:text-4xl text-2xl text-amber-950"></i>
+            <span class="md:text-xl">MSA Rd. NAIROBI</span>
+          </div>
         </div>
       </div>
   </section>

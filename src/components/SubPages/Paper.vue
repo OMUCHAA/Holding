@@ -1,9 +1,10 @@
 <template>
   <div class="pt-36 min-h-[86vh] lg:min-h-[91vh] bg-amber-50 flex flex-col items-center p-8">
-    <h1 class="text-4xl font-bold text-amber-950 mb-4">Paper Industry</h1>
+    <h1 class="text-3xl font-bold text-amber-950 mb-4 text-center">Mashbah Packaging</h1>
     <p class="text-amber-950 max-w-2xl text-center mb-6">
       Producing high-quality paper products with sustainability at the core.
     </p>
+    <img data-aos="slide-right" data-aos-duration="1500" src="../../assets/mashbahbanner.jpeg" alt="banner" class="md:w-2/5 mb-10">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div class="bg-amber-100 p-6 rounded-lg shadow-md">
         <h2 class="text-2xl font-semibold mb-2">Products</h2>

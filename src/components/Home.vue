@@ -13,7 +13,7 @@
     </a>
   </section>
 
-  <section id="subsidiaries" class="py-20 bg-amber-100 text-center">
+  <section id="subsidiaries" class="pt-20 bg-amber-100 text-center">
     <h2 class="text-3xl font-bold mb-10 text-amber-950">Our Subsidiaries</h2>
 
     <div
@@ -22,12 +22,13 @@
       <div
         class="bg-amber-200 shadow-md rounded-2xl p-6 hover:shadow-xl transition flex flex-col justify-between h-full"
       >
-        <h3 class="text-2xl font-semibold mb-3">Solar Company</h3>
+        <h3 class="text-2xl font-semibold mb-3">SunRevo Solar Company</h3>
         <p class="text-gray-600 mb-4">
           We provide reliable, affordable, and sustainable solar energy
           solutions designed to help homes and businesses reduce energy costs
           and environmental impact.
         </p>
+        <p class="mb-3"><span>Contacts: </span>+254 780818238</p>
         <router-link to="/solar">
           <button
           class="bg-amber-50 px-4 py-2 rounded-full hover:bg-amber-700 transition w-56 mx-auto"
@@ -93,7 +94,7 @@
     </div>
   </section>
 
-  <section id="about" class="py-10 text-center max-w-5xl mx-auto">
+  <section id="about" class="pt-10 text-center max-w-5xl mx-auto">
     <h2 class="text-3xl font-bold mb-6 text-amber-950">About Us</h2>
     <p class="text-amber-950 leading-relaxed mb-8">
       MashBah Holdings is a diversified investment company with interests in
@@ -102,7 +103,7 @@
       value for stakeholders.
     </p>
 
-    <div class="grid md:grid-cols-3 gap-6">
+    <div class="grid md:grid-cols-3 gap-6 -mb-8">
       <div
         class="bg-gradient-to-b bg-amber-700 shadow-md rounded-2xl p-6"
       >
@@ -134,7 +135,7 @@
 
   <section
     id="contact"
-    class="mt-16 py-20 bg-amber-100 text-yellow-900 text-center"
+    class="mt-16 py-16 bg-amber-100 text-yellow-900 text-center"
   >
     <h2 class="text-3xl font-bold mb-6">Reachout Today!</h2>
     <p class="mb-6 text-lg">
@@ -142,28 +143,27 @@
     </p>
 
     <section
-      class="py-20 text-center md:flex md:items-center justify-center gap-20"
-    >
+       >
       <!-- Contact Details -->
-      <div
+      <div  
         class="border-amber-600 rounded-lg shadow-lg text-amber-800 shadow-amber-600 flex flex-col items-center justify-center py-10 px-5"
       >
-        <h2 class="text-3xl font-bold mb-6 text-amber-800">Contact Us</h2>
-        <p class="mb-6 text-lg">
+        <h2 class="lg:text-3xl text-2xl font-bold mb-6 text-amber-800">Contact Us</h2>
+        <p class="mb-6 md:text-lg">
           Reach Out to us for any questions, assistance or clarification.
         </p>
-        <div class="flex flex-col justify-center items-center w-full text-center">
+        <div class="flex flex-col justify-center items-center lg:w-3/5 w-full text-center">
           <div class="text-center border-amber-400 rounded-tr-3xl rounded-tl-3xl border py-4 w-3/5">
             <i class="fa-solid fa-envelope text-4xl text-amber-950"></i>
-            <span class="text-xl">Info@gmail.com</span><br /><br />
+            <span class="md:text-xl">Info@gmail.com</span><br /><br />
           </div>
           <div class="text-center border-amber-400 border py-4 w-3/5">
             <i class="fa-solid fa-phone-volume text-4xl text-amber-950"></i>
-            <span class="text-xl">+254 780818238</span><br /><br />
+            <span class="md:text-xl">+254 780818238</span><br /><br />
           </div>
           <div class="text-center border-amber-400 border w-3/5 py-4">
             <i class="fa-solid fa-location-dot text-4xl text-amber-950"></i>
-            <span class="text-xl">MSA Rd. NAIROBI</span>
+            <span class="md:text-xl">MSA Rd. NAIROBI</span>
           </div>
         </div>
       </div>

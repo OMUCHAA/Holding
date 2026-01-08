@@ -34,7 +34,7 @@
     </div>
     <div class="border-t border-amber-200 flex flex-col justify-center text-amber-100 items-center mt-3 pt-3">
       <p>© {{ new Date().getFullYear() }} MashBah Holdings. All rights reserved.</p>
-      <a class="hover:text-blue-100" href="#">Back to top</a>
+      <router-link class="hover:text-blue-100" to="/">Back to top</router-link>
     </div>
   </footer>
 </template>

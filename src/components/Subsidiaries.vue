@@ -1,5 +1,5 @@
 <template>
-  <section id="subsidiaries" class="mt-24 py-28 bg-amber-100 text-center min-h-[82vh]">
+  <section id="subsidiaries" class="mt-24 pb-28 pt-20 bg-amber-100 text-center min-h-[82vh]">
     <h2 class="text-3xl font-bold mb-10 text-amber-950">Our Subsidiaries</h2>
 
     <div
@@ -8,7 +8,7 @@
       <div
         class="bg-amber-200 shadow-md rounded-2xl p-6 hover:shadow-xl transition flex flex-col justify-between h-full"
       >
-        <h3 class="text-2xl font-semibold mb-3">Solar Company</h3>
+        <h3 class="text-2xl font-semibold mb-3">SunRevo Solar Company</h3>
         <p class="text-gray-600 mb-4">
           We provide reliable, affordable, and sustainable solar energy
           solutions designed to help homes and businesses reduce energy costs

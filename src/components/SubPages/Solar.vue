@@ -1,6 +1,6 @@
 <template>
   <div class="pt-36 min-h-[86vh] lg:min-h-[91vh] bg-amber-50 flex flex-col items-center p-8">
-    <h1 class="text-4xl font-bold text-amber-950 mb-4 text-center">SunRevo Solar Company</h1>
+    <h1 class="md:text-4xl sm:text-3xl text-2xl font-bold text-amber-950 mb-4 text-center">SunRevo Solar Company</h1>
      <div
     class="relative bg-cover bg-center"
     :style="{ backgroundImage: `url(${heroImage})`}"
@@ -12,7 +12,7 @@
         data-aos-duration="1000"
         class="text-orange-200 font-semibold text-center text-4xl sm:text-5xl md:text-7xl font-serif"
       >
-        Advanced Solar Power Solutions..
+        Advanced Solar Power Solutions...
       </h1>
       <p
         data-aos="zoom-in"
@@ -27,12 +27,12 @@
           data-aos-duration="2500"
           class="text-white border-orange-100 border-[3px] font-semibold py-3 rounded px-4 hover:bg-orange-400 hover:text-black transition duration-500"
         >
-          Explore Website
+          Our Website
         </button></a
       >
     </div>
   </div>
-    <p class="text-amber-700 max-w-2xl text-center mb-6">
+    <p class="text-amber-700 max-w-2xl text-center my-6">
       Harnessing solar energy to power a sustainable future for homes and businesses.
     </p>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -1,6 +1,6 @@
 <template>
   <div class="pt-36 min-h-[86vh] lg:min-h-[91vh] bg-amber-50 flex flex-col items-center p-8">
-    <h1 class="text-4xl font-bold text-amber-950 mb-4">Delivery Company</h1>
+    <h1 class="md:text-4xl text-2xl font-bold text-amber-950 mb-4 text-center">Delivery Company</h1>
     <p class="text-amber-950 max-w-2xl text-center mb-6">
       Fast, reliable, and efficient delivery services tailored to your business and personal needs.
     </p>

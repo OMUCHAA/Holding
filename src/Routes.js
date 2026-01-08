@@ -56,16 +56,16 @@ const router = createRouter({
 	routes,
 	scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
-      // When navigating back/forward
+      // When navigating back/forward.
       return savedPosition;
     } else if (to.hash) {
-      // Scroll to anchor hash with smooth behavior
+      // Scroll to anchor hash with smooth behavior.
       return {
         el: to.hash,
         behavior: 'smooth',
       };
     } else {
-      // Scroll to top of page with smooth behavior
+      // Scroll to top of page with smooth behavior.
       return { top: 0, behavior: 'smooth' };
     }
   },

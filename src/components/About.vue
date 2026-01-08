@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="mt-16 py-20 text-center max-w-5xl mx-auto min-h-[82vh]">
+  <section id="about" class="mt-16 py-16 text-center max-w-5xl mx-auto min-h-[82vh]">
     <h2 class="text-3xl font-bold mb-6 text-amber-950">About Us</h2>
     <p class="text-amber-950 leading-relaxed mb-8">
       MashBah Holdings is a diversified investment company with interests in
