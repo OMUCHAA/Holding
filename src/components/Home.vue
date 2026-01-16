@@ -13,7 +13,7 @@
     </a>
   </section>
 
-  <section id="subsidiaries" class="pt-20 bg-amber-100 text-center">
+  <section id="subsidiaries" class="py-20 bg-amber-100 text-center">
     <h2 class="text-3xl font-bold mb-10 text-amber-950">Our Subsidiaries</h2>
 
     <div
@@ -92,6 +92,86 @@
         </button>
       </div>
     </div>
+  </section>
+
+  <section>
+      <div class="pt-20 min-h-[86vh] lg:min-h-[91vh] bg-amber-50 flex flex-col items-center p-8">
+    <h1 class="md:text-4xl sm:text-3xl text-2xl font-bold text-amber-950 mb-4 text-center">SunRevo Solar Company</h1>
+     <div
+    class="relative bg-cover bg-center"
+    :style="{ backgroundImage: `url(${heroImage})`}"
+  >
+    <div class="absolute inset-0 bg-black/30"></div>
+    <div class="relative z-10 flex flex-col items-center justify-center min-h-[70vh]">
+      <h1
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        class="text-orange-200 font-semibold text-center text-4xl sm:text-5xl md:text-7xl font-serif"
+      >
+        Advanced Solar Power Solutions...
+      </h1>
+      <p
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        class="font-mono text-white text-center py-10 text-sm sm:text-xl md:text-2xl"
+      >
+        SunRevo is the brand that brightens your world!
+      </p>
+      <a href="https://sunrevo.co.ke/" target="_blank"
+        ><button
+          data-aos="zoom-in"
+          data-aos-duration="2500"
+          class="text-white border-orange-100 border-[3px] font-semibold py-3 rounded px-4 hover:bg-orange-400 hover:text-black transition duration-500"
+        >
+          Our Website
+        </button></a
+      >
+    </div>
+  </div>
+    <p class="text-amber-700 max-w-2xl text-center my-6">
+      Harnessing solar energy to power a sustainable future for homes and businesses.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-amber-100 p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-2">Solutions</h2>
+        <ul class="list-disc list-inside text-amber-700">
+          <li>Residential solar panels</li>
+          <li>Commercial solar solutions</li>
+          <li>Solar energy consulting</li>
+        </ul>
+      </div>
+      <div class="bg-amber-100 p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-2">About Us</h2>
+        <p class="text-amber-700">
+          We specialize in designing and implementing solar energy systems to maximize efficiency and reduce carbon footprint.
+        </p>
+      </div>
+    </div>
+  </div>
+
+   <div class="pt-10 min-h-[86vh] lg:min-h-[91vh] bg-amber-50 flex flex-col items-center p-8">
+    <h1 class="text-3xl font-bold text-amber-950 mb-4 text-center">Mashbah Packaging</h1>
+    <p class="text-amber-950 max-w-2xl text-center mb-6">
+      Producing high-quality paper products with sustainability at the core.
+    </p>
+    <img data-aos="slide-right" data-aos-duration="1500" src="../assets/mashbahbanner.jpeg" alt="banner" class="md:w-2/5 mb-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-amber-100 p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-2">Products</h2>
+        <ul class="list-disc list-inside text-amber-700">
+          <li>Recycled paper</li>
+          <li>Packaging materials</li>
+          <li>Stationery products</li>
+        </ul>
+      </div>
+      <div class="bg-amber-100 p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-2">Our Mission</h2>
+        <p class="text-amber-700">
+          To innovate in paper production while reducing environmental impact.
+        </p>
+      </div>
+    </div>
+  </div>
   </section>
 
   <section id="about" class="pt-10 text-center max-w-5xl mx-auto">
@@ -173,5 +253,5 @@
 </template>
 
 <script setup>
-
+import heroImage from "../assets/hero2.jpg";
 </script>
