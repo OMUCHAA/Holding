@@ -29,7 +29,7 @@
         <h3 class="text-lg font-bold mb-3">Get in Touch</h3>
         <p class="text-amber-500"> MSA Rd, Kenya</p>
         <p class="text-amber-500">+254 780818238</p>
-        <p class="text-amber-500">info@mashbah.com</p>
+        <p class="text-amber-500">sales@mashbahholdings.co.ke <br> accounts@mashbahholdings.co.ke</p>
       </div>
     </div>
     <div class="border-t border-amber-200 flex flex-col justify-center text-amber-100 items-center mt-3 pt-3">

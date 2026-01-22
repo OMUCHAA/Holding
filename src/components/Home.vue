@@ -233,15 +233,17 @@
           Reach Out to us for any questions, assistance or clarification.
         </p>
         <div class="flex flex-col justify-center items-center lg:w-3/5 w-full text-center">
-          <div class="text-center border-amber-400 rounded-tr-3xl rounded-tl-3xl border py-4 w-3/5">
-            <i class="fa-solid fa-envelope text-4xl text-amber-950"></i>
-            <span class="md:text-xl">Info@gmail.com</span><br /><br />
+          <div class="text-balance border-amber-400 rounded-tr-3xl rounded-tl-3xl border py-4 sm:w-3/5 w-full">
+            <i class="fa-solid fa-envelope text-4xl text-amber-950"></i><br>
+            <span>sales@mashbahholdings.co.ke</span><br /><br />
+            <p class="-mt-7">/</p>
+            <span>accounts@mashbahholdings.co.ke</span><br /><br />
           </div>
-          <div class="text-center border-amber-400 border py-4 w-3/5">
+          <div class="text-balance border-amber-400 border py-4 sm:w-3/5 w-full">
             <i class="fa-solid fa-phone-volume text-4xl text-amber-950"></i>
             <span class="md:text-xl">+254 780818238</span><br /><br />
           </div>
-          <div class="text-center border-amber-400 border w-3/5 py-4">
+          <div class="text-balance border-amber-400 border sm:w-3/5 py-4 w-full">
             <i class="fa-solid fa-location-dot text-4xl text-amber-950"></i>
             <span class="md:text-xl">MSA Rd. NAIROBI</span>
           </div>

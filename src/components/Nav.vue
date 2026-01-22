@@ -34,7 +34,7 @@
       <!--What is going to be visible on smaller screens-->
       <!-- Mobile Menu Toggle Button (bars only) -->
       <div @click="toggleMenu" class="lg:hidden">
-        <i v-if="!isOpen" class="fa-solid fa-bars text-3xl text-amber-900"></i>
+        <i v-if="!isOpen" class="fa-solid fa-bars text-4xl text-amber-900"></i>
       </div>
 
       <!-- Slide-in Mobile Menu -->
@@ -44,7 +44,7 @@
       >
         <!-- X Close Button INSIDE Sidebar -->
         <button @click="closeMenu" class="absolute top-4 left-4">
-          <i class="fa-solid fa-xmark text-3xl text-amber-500"></i>
+          <i class="fa-solid fa-xmark text-4xl text-amber-500"></i>
         </button>
 
         <!-- Menu Items -->
