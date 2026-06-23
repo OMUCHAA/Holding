@@ -17,7 +17,7 @@
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          Water, Solar & Packaging Solutions
+          Packaging, Solar & Water Solutions
           <span class="block text-amber-400"> Powered by Mashbah Holdings Ltd </span>
         </h1>
 
@@ -36,15 +36,15 @@
           data-aos="fade-up"
           data-aos-delay="400"
         >
-          <a
-            href="#subsidiaries"
+          <router-link
+            to="/subsidiaries"
             class="bg-amber-500 hover:bg-amber-600 text-black font-semibold px-8 py-4 rounded-full transition duration-300"
           >
             Explore Our Companies
-          </a>
+          </router-link>
 
           <router-link
-            to="/contact-us"
+            to="/contacts"
             class="border border-white px-8 py-4 rounded-full hover:bg-white hover:text-black transition duration-300"
           >
             Contact Us

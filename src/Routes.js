@@ -1,4 +1,4 @@
-import { createWebHashHistory, createRouter } from "vue-router";
+import { createWebHistory, createRouter } from "vue-router";
 
 const Home = () => import("./components/Home.vue");
 const Contacts = () => import("./components/Contacts.vue");
@@ -56,7 +56,7 @@ const routes = [
   },
 
   {
-    path: "/subsidiaries/water-company",
+    path: "/subsidiaries",
     name: "WaterCompany",
     component: WaterCompany,
     meta: {
@@ -67,7 +67,7 @@ const routes = [
   },
 
   {
-    path: "/subsidiaries/paper-products",
+    path: "/subsidiaries",
     name: "Paper",
     component: Paper,
     meta: {
@@ -78,7 +78,7 @@ const routes = [
   },
 
   {
-    path: "/subsidiaries/delivery-services",
+    path: "/subsidiaries",
     name: "Delivery",
     component: Delivery,
     meta: {
@@ -89,7 +89,7 @@ const routes = [
   },
 
   {
-    path: "/subsidiaries/solar-solutions",
+    path: "/subsidiaries",
     name: "Solar",
     component: Solar,
     meta: {
@@ -106,7 +106,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 
   scrollBehavior(to, from, savedPosition) {
