@@ -1,256 +1,252 @@
 <template>
-  <div class="bg-gray-100">
+  <div class="bg-gray-100 mt-24">
     <section
-    class="pt-48 text-center py-20 bg-gradient-to-bl from-black via-yellow-700 to-black text-white flex flex-col justify-center items-center"
-  >
-    <h1 data-aos="slide-right" data-aos-duration="3000" class="text-4xl md:text-6xl font-bold mb-4">MashBah Holdings</h1>
-    <p class="text-lg md:text-2xl mb-6">Empowering Growth Across Industries</p>
-    <a
-      href="#subsidiaries"
-      class="bg-white text-amber-950 px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition-color duration-600"
+      class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-r from-black via-amber-900 to-black text-white"
     >
-      Explore Our Companies
-    </a>
-  </section>
+      <div class="absolute inset-0 bg-black/50"></div>
 
-  <section id="subsidiaries" class="py-20 bg-amber-100 text-center">
-    <h2 class="text-3xl font-bold mb-10 text-amber-950">Our Subsidiaries</h2>
-
-    <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto items-stretch"
-    >
-      <div
-        class="bg-amber-200 shadow-md rounded-2xl p-6 hover:shadow-xl transition flex flex-col justify-between h-full"
-      >
-        <h3 class="text-2xl font-semibold mb-3">SunRevo Solar Company</h3>
-        <p class="text-gray-600 mb-4">
-          We provide reliable, affordable, and sustainable solar energy
-          solutions designed to help homes and businesses reduce energy costs
-          and environmental impact.
-        </p>
-        <p class="mb-3"><span>Contacts: </span>+254 780818238</p>
-        <router-link to="/solar">
-          <button
-          class="bg-amber-50 px-4 py-2 rounded-full hover:bg-amber-700 transition w-56 mx-auto"
+      <div class="relative z-10 max-w-6xl mx-auto py-6 px-6 text-center">
+        <span
+          class="inline-block mb-6 px-5 py-2 rounded-full border border-amber-400 text-amber-300 text-sm tracking-widest uppercase"
         >
-          Learn More
-        </button>
-        </router-link>
-      </div>  
-      <div
-        class="bg-amber-100 shadow-md rounded-2xl p-6 hover:shadow-xl transition flex flex-col justify-between h-full"
-      >
-        <h3 class="text-2xl font-semibold mb-3">
-          MashBah Packaging
-        </h3>
-        <p class="text-gray-600 mb-4">
-          Committed to quality and sustainability, we produce high-grade paper
-          products that support diverse industires while prioritizing
-          echo-friendly practices.
-        </p>
-        <button
-          @click="$router.push('/paper')"
-          class="bg-amber-400 text-white px-4 py-2 rounded-full hover:bg-amber-700 transition w-56 mx-auto"
+          Building Sustainable Businesses Across Kenya
+        </span>
+
+        <h1
+          class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight"
+          data-aos="fade-up"
+          data-aos-duration="1000"
         >
-          Learn More
-        </button>
-      </div>
+          Water, Solar & Packaging Solutions
+          <span class="block text-amber-400"> Powered by Mashbah Holdings Ltd </span>
+        </h1>
 
-      <div
-        class="bg-amber-200 shadow-md rounded-2xl p-6 hover:shadow-xl transition flex flex-col justify-between h-full"
-      >
-        <h3 class="text-2xl font-semibold mb-3">
-          Delivery Company
-        </h3>
-        <p class="text-gray-600 mb-4">
-          we offer a fast reliable and secure delivery services tailored to meet
-          the needs of businesses and individuals, ensurikng your packages
-          arrive on time-every time.
-        </p>
-        <button
-          @click="$router.push('/delivery')"
-          class="bg-amber-50 px-4 py-2 rounded-full hover:bg-amber-700 transition w-56 mx-auto"
+        <p
+          class="max-w-3xl mx-auto mt-8 text-lg md:text-xl text-gray-300 leading-relaxed"
+          data-aos="fade-up"
+          data-aos-delay="200"
         >
-          Learn More
-        </button>
-      </div>
-
-      <div
-        class="bg-amber-100 shadow-md rounded-2xl p-6 hover:shadow-xl transition flex flex-col justify-between h-full"
-      >
-        <h3 class="text-2xl font-semibold mb-3">Water Company</h3>
-        <p class="text-gray-600 mb-4">
-          Providing safe and sustainable water solutions to households and
-          industries.
+          Mashbah Holdings Ltd is a diversified Kenyan holding company overseeing
+          industry-leading businesses in bottled water, bulk water supply, solar energy
+          solutions, and sustainable packaging manufacturing.
         </p>
 
-        <button
-          @click="$router.push('/water')"
-          class="bg-amber-400 text-white px-4 py-2 rounded-full hover:bg-amber-700 transition w-56 mx-auto"
+        <div
+          class="flex flex-col sm:flex-row gap-4 justify-center mt-10"
+          data-aos="fade-up"
+          data-aos-delay="400"
         >
-          Learn More
-        </button>
-      </div>
-    </div>
-  </section>
+          <a
+            href="#subsidiaries"
+            class="bg-amber-500 hover:bg-amber-600 text-black font-semibold px-8 py-4 rounded-full transition duration-300"
+          >
+            Explore Our Companies
+          </a>
 
-  <section>
-      <div class="pt-20 min-h-[86vh] lg:min-h-[91vh] bg-amber-50 flex flex-col items-center p-8">
-    <h1 class="md:text-4xl sm:text-3xl text-2xl font-bold text-amber-950 mb-4 text-center">SunRevo Solar Company</h1>
-     <div
-    class="relative bg-cover bg-center"
-    :style="{ backgroundImage: `url(${heroImage})`}"
-  >
-    <div class="absolute inset-0 bg-black/30"></div>
-    <div class="relative z-10 flex flex-col items-center justify-center min-h-[70vh]">
-      <h1
-        data-aos="zoom-in"
-        data-aos-duration="1000"
-        class="text-orange-200 font-semibold text-center text-4xl sm:text-5xl md:text-7xl font-serif"
-      >
-        Advanced Solar Power Solutions...
-      </h1>
-      <p
-        data-aos="zoom-in"
-        data-aos-duration="2000"
-        class="font-mono text-white text-center py-10 text-sm sm:text-xl md:text-2xl"
-      >
-        SunRevo is the brand that brightens your world!
-      </p>
-      <a href="https://sunrevo.co.ke/" target="_blank"
-        ><button
-          data-aos="zoom-in"
-          data-aos-duration="2500"
-          class="text-white border-orange-100 border-[3px] font-semibold py-3 rounded px-4 hover:bg-orange-400 hover:text-black transition duration-500"
-        >
-          Our Website
-        </button></a
-      >
-    </div>
-  </div>
-    <p class="text-amber-700 max-w-2xl text-center my-6">
-      Harnessing solar energy to power a sustainable future for homes and businesses.
-    </p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="bg-amber-100 p-6 rounded-lg shadow-md">
-        <h2 class="text-2xl font-semibold mb-2">Solutions</h2>
-        <ul class="list-disc list-inside text-amber-700">
-          <li>Residential solar panels</li>
-          <li>Commercial solar solutions</li>
-          <li>Solar energy consulting</li>
-        </ul>
+          <router-link
+            to="/contact-us"
+            class="border border-white px-8 py-4 rounded-full hover:bg-white hover:text-black transition duration-300"
+          >
+            Contact Us
+          </router-link>
+        </div>
       </div>
-      <div class="bg-amber-100 p-6 rounded-lg shadow-md">
-        <h2 class="text-2xl font-semibold mb-2">About Us</h2>
-        <p class="text-amber-700">
-          We specialize in designing and implementing solar energy systems to maximize efficiency and reduce carbon footprint.
-        </p>
-      </div>
-    </div>
-  </div>
+    </section>
 
-   <div class="pt-10 min-h-[86vh] lg:min-h-[91vh] bg-amber-50 flex flex-col items-center p-8">
-    <h1 class="text-3xl font-bold text-amber-950 mb-4 text-center">Mashbah Packaging</h1>
-    <p class="text-amber-950 max-w-2xl text-center mb-6">
-      Producing high-quality paper products with sustainability at the core.
-    </p>
-    <img data-aos="slide-right" data-aos-duration="1500" src="../assets/mashbahbanner.jpeg" alt="banner" class="md:w-2/5 mb-10">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="bg-amber-100 p-6 rounded-lg shadow-md">
-        <h2 class="text-2xl font-semibold mb-2">Products</h2>
-        <ul class="list-disc list-inside text-amber-700">
-          <li>Recycled paper</li>
-          <li>Packaging materials</li>
-          <li>Stationery products</li>
-        </ul>
-      </div>
-      <div class="bg-amber-100 p-6 rounded-lg shadow-md">
-        <h2 class="text-2xl font-semibold mb-2">Our Mission</h2>
-        <p class="text-amber-700">
-          To innovate in paper production while reducing environmental impact.
-        </p>
-      </div>
-    </div>
-  </div>
-  </section>
+    <section class="bg-white py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-14">
+          <span class="text-amber-600 uppercase tracking-widest font-semibold text-sm">
+            Why Choose Us
+          </span>
 
-  <section id="about" class="pt-10 text-center max-w-5xl mx-auto">
-    <h2 class="text-3xl font-bold mb-6 text-amber-950">About Us</h2>
-    <p class="text-amber-950 leading-relaxed mb-8">
-      MashBah Holdings is a diversified investment company with interests in
-      technology, travel, construction, and water sectors. Our mission is to
-      build sustainable businesses that empower communities and create long-term
-      value for stakeholders.
-    </p>
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mt-4">
+            Delivering Excellence Across Multiple Industries
+          </h2>
 
-    <div class="grid md:grid-cols-3 gap-6 -mb-8">
-      <div
-        class="bg-gradient-to-b bg-amber-700 shadow-md rounded-2xl p-6"
-      >
-        <h3 class="text-xl font-semibold text-amber-100 mb-2">Our Mission</h3>
-        <p class="text-amber-100">
-          To drive innovation and growth across industries through sustainable
-          investment and leadership.
-        </p>
-      </div>
-      <div
-        class="bg-amber-700 shadow-md rounded-2xl p-6"
-      >
-        <h3 class="text-xl font-semibold text-amber-100 mb-2">Our Vision</h3>
-        <p class="text-amber-100">
-          To become one of Africa’s most trusted and impactful holding
-          companies.
-        </p>
-      </div>
-      <div
-        class=" bg-amber-700 shadow-md rounded-2xl p-6"
-      >
-        <h3 class="text-xl font-semibold text-amber-100 mb-2">Our Values</h3>
-        <p class="text-amber-100">
-          Integrity, innovation, community empowerment, and sustainable growth.
-        </p>
-      </div>
-    </div>
-  </section>
+          <p class="max-w-3xl mx-auto mt-6 text-gray-600 text-lg">
+            Through innovation, reliability, and sustainable business practices, Mashbah
+            Holdings continues to provide solutions that improve lives, empower
+            businesses, and support economic growth throughout Kenya.
+          </p>
+        </div>
 
-  <section
-    id="contact"
-    class="mt-16 py-16 bg-amber-100 text-yellow-900 text-center"
-  >
-    <h2 class="text-3xl font-bold mb-6">Reachout Today!</h2>
-    <p class="mb-6 text-lg">
-      We’d love to hear from you. Reach out for partnerships or inquiries.
-    </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div
+            class="bg-amber-50 rounded-3xl p-8 text-center shadow-sm hover:shadow-xl transition duration-300"
+          >
+            <i class="fa-solid fa-droplet text-5xl text-amber-600 mb-5"></i>
 
-    <section
-       >
-      <!-- Contact Details -->
-      <div  
-        class="border-amber-600 rounded-lg shadow-lg text-amber-800 shadow-amber-600 flex flex-col items-center justify-center py-10 px-5"
-      >
-        <h2 class="lg:text-3xl text-2xl font-bold mb-6 text-amber-800">Contact Us</h2>
-        <p class="mb-6 md:text-lg">
-          Reach Out to us for any questions, assistance or clarification.
-        </p>
-        <div class="flex flex-col justify-center items-center lg:w-3/5 w-full text-center">
-          <div class="text-balance border-amber-400 rounded-tr-3xl rounded-tl-3xl border py-4 sm:w-3/5 w-full">
-            <i class="fa-solid fa-envelope text-4xl text-amber-950"></i><br>
-            <span>sales@mashbahholdings.co.ke</span><br /><br />
-            <p class="-mt-7">/</p>
-            <span>accounts@mashbahholdings.co.ke</span><br /><br />
+            <h3 class="text-xl font-bold mb-3">Clean Water Solutions</h3>
+
+            <p class="text-gray-600">
+              Bottled water and bulk tanker supply through Aqualina Water.
+            </p>
           </div>
-          <div class="text-balance border-amber-400 border py-4 sm:w-3/5 w-full">
-            <i class="fa-solid fa-phone-volume text-4xl text-amber-950"></i>
-            <span class="md:text-xl">+254 780818238</span><br /><br />
+
+          <div
+            class="bg-amber-50 rounded-3xl p-8 text-center shadow-sm hover:shadow-xl transition duration-300"
+          >
+            <i class="fa-solid fa-solar-panel text-5xl text-amber-600 mb-5"></i>
+
+            <h3 class="text-xl font-bold mb-3">Renewable Energy</h3>
+
+            <p class="text-gray-600">
+              Solar panels, inverters, installations and energy consulting.
+            </p>
           </div>
-          <div class="text-balance border-amber-400 border sm:w-3/5 py-4 w-full">
-            <i class="fa-solid fa-location-dot text-4xl text-amber-950"></i>
-            <span class="md:text-xl">MSA Rd. NAIROBI</span>
+
+          <div
+            class="bg-amber-50 rounded-3xl p-8 text-center shadow-sm hover:shadow-xl transition duration-300"
+          >
+            <i class="fa-solid fa-box-open text-5xl text-amber-600 mb-5"></i>
+
+            <h3 class="text-xl font-bold mb-3">Packaging Manufacturing</h3>
+
+            <p class="text-gray-600">
+              Khaki bags, non-woven bags and medical envelope production.
+            </p>
+          </div>
+
+          <div
+            class="bg-amber-50 rounded-3xl p-8 text-center shadow-sm hover:shadow-xl transition duration-300"
+          >
+            <i class="fa-solid fa-handshake text-5xl text-amber-600 mb-5"></i>
+
+            <h3 class="text-xl font-bold mb-3">Trusted Partnerships</h3>
+
+            <p class="text-gray-600">
+              Building long-term relationships through quality and reliability.
+            </p>
           </div>
         </div>
       </div>
     </section>
-  </section>
+
+    <section id="about" class="bg-white py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-14">
+          <span class="text-amber-600 uppercase tracking-widest font-semibold text-sm">
+            About Mashbah Holdings
+          </span>
+
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mt-4">
+            Building Sustainable Businesses for Kenya's Future
+          </h2>
+
+          <p
+            class="max-w-4xl mx-auto mt-6 text-gray-600 text-base md:text-lg leading-relaxed"
+          >
+            Mashbah Holdings Ltd is a diversified Kenyan holding company overseeing
+            businesses in bottled water production, bulk water supply, solar energy
+            solutions, and sustainable packaging manufacturing. Through our subsidiaries,
+            we deliver innovative products and services that support homes, businesses,
+            institutions, and communities across Kenya.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="bg-amber-50 rounded-3xl p-8 shadow-sm hover:shadow-xl transition duration-300"
+          >
+            <h3 class="text-2xl font-bold text-amber-700 mb-4">Our Mission</h3>
+
+            <p class="text-gray-700 leading-relaxed">
+              To deliver innovative, reliable, and sustainable solutions through our
+              subsidiaries while creating lasting value for customers, employees,
+              communities, and stakeholders.
+            </p>
+          </div>
+
+          <div
+            class="bg-amber-50 rounded-3xl p-8 shadow-sm hover:shadow-xl transition duration-300"
+          >
+            <h3 class="text-2xl font-bold text-amber-700 mb-4">Our Vision</h3>
+
+            <p class="text-gray-700 leading-relaxed">
+              To become one of East Africa's most trusted and impactful business groups
+              recognized for excellence, innovation, and sustainable growth.
+            </p>
+          </div>
+
+          <div
+            class="bg-amber-50 rounded-3xl p-8 shadow-sm hover:shadow-xl transition duration-300"
+          >
+            <h3 class="text-2xl font-bold text-amber-700 mb-4">Our Values</h3>
+
+            <p class="text-gray-700 leading-relaxed">
+              Integrity, accountability, innovation, customer focus, sustainability, and
+              commitment to quality in every business we operate.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gradient-to-br from-amber-50 to-amber-100">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <span class="text-amber-600 uppercase tracking-widest font-semibold text-sm">
+            Contact Us
+          </span>
+
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mt-4">
+            Let's Build Something Great Together
+          </h2>
+
+          <p class="mt-6 text-gray-600 text-base md:text-lg max-w-2xl mx-auto">
+            Reach out to Mashbah Holdings for partnerships, inquiries, quotations, or
+            support regarding any of our subsidiaries.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
+          <div class="grid grid-cols-1 md:grid-cols-3">
+            <div
+              class="p-8 border-b md:border-b-0 md:border-r border-gray-200 text-center"
+            >
+              <i class="fa-solid fa-envelope text-4xl text-amber-600 mb-4"></i>
+
+              <h3 class="font-bold text-lg mb-3">Email Us</h3>
+
+              <a
+                href="mailto:sales@mashbahholdings.co.ke"
+                class="block text-gray-600 hover:text-amber-600 break-all"
+              >
+                sales@mashbahholdings.co.ke
+              </a>
+
+              <a
+                href="mailto:accounts@mashbahholdings.co.ke"
+                class="block text-gray-600 hover:text-amber-600 break-all mt-2"
+              >
+                accounts@mashbahholdings.co.ke
+              </a>
+            </div>
+
+            <div
+              class="p-8 border-b md:border-b-0 md:border-r border-gray-200 text-center"
+            >
+              <i class="fa-solid fa-phone-volume text-4xl text-amber-600 mb-4"></i>
+
+              <h3 class="font-bold text-lg mb-3">Call Us</h3>
+
+              <a href="tel:+254780818238" class="text-gray-600 hover:text-amber-600">
+                +254 780 818 238
+              </a>
+            </div>
+
+            <div class="p-8 text-center">
+              <i class="fa-solid fa-location-dot text-4xl text-amber-600 mb-4"></i>
+
+              <h3 class="font-bold text-lg mb-3">Visit Us</h3>
+
+              <p class="text-gray-600">Mombasa Road, Nairobi, Kenya</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
