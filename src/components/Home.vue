@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 mt-24">
+  <div class="bg-gray-100 lg:mt-24">
     <section
       class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-r from-black via-amber-900 to-black text-white"
     >
