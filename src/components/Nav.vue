@@ -113,6 +113,6 @@ const navItems = [
   { name: "Home", to: "/" },
   { name: "Companies", to: "/subsidiaries" },
   { name: "About Us", to: "/about" },
-  { name: "Contact", to: "/contact" },
+  { name: "Contact", to: "/contacts" },
 ];
 </script>
