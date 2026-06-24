@@ -112,7 +112,7 @@ function closeMenu() {
 const navItems = [
   { name: "Home", to: "/" },
   { name: "Companies", to: "/subsidiaries" },
-  { name: "About Us", to: "/about-us" },
-  { name: "Contact", to: "/contact-us" },
+  { name: "About Us", to: "/about" },
+  { name: "Contact", to: "/contact" },
 ];
 </script>
