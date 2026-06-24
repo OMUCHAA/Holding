@@ -56,7 +56,7 @@ const routes = [
   },
 
   {
-    path: "/subsidiaries",
+    path: "/water",
     name: "WaterCompany",
     component: WaterCompany,
     meta: {
@@ -67,7 +67,7 @@ const routes = [
   },
 
   {
-    path: "/subsidiaries",
+    path: "/paper",
     name: "Paper",
     component: Paper,
     meta: {
@@ -78,7 +78,7 @@ const routes = [
   },
 
   {
-    path: "/subsidiaries",
+    path: "/delivery",
     name: "Delivery",
     component: Delivery,
     meta: {
@@ -89,7 +89,7 @@ const routes = [
   },
 
   {
-    path: "/subsidiaries",
+    path: "/solar",
     name: "Solar",
     component: Solar,
     meta: {
