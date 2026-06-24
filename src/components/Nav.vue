@@ -29,7 +29,7 @@
         <!-- CONTACT BUTTON -->
         <div class="hidden lg:block">
           <router-link
-            to="/contact-us"
+            to="/contacts "
             class="bg-amber-500 hover:bg-amber-600 text-black font-semibold px-6 py-3 rounded-full transition duration-300"
           >
             Contact Us
@@ -85,7 +85,7 @@
       <!-- CTA -->
       <div class="px-6 mt-4">
         <router-link
-          to="/contact-us"
+          to="/contacts"
           @click="closeMenu"
           class="block text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-4 rounded-xl transition"
         >
@@ -113,6 +113,5 @@ const navItems = [
   { name: "Home", to: "/" },
   { name: "Companies", to: "/subsidiaries" },
   { name: "About Us", to: "/about" },
-  { name: "Contact", to: "/contacts" },
 ];
 </script>
