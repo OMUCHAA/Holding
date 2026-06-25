@@ -5,11 +5,9 @@
     >
       <div class="absolute inset-0 bg-black/50"></div>
 
-      <div
-        class="relative z-10 max-w-6xl mx-auto px-6 pt-28 sm:pt-32 md:pt-20 text-center"
-      >
+      <div class="relative z-10 max-w-6xl mx-auto px-6 pt-20 text-center">
         <span
-          class="inline-flex items-center gap-2 mb-6 px-4 py-2 sm:px-5 rounded-full border border-amber-400/50 bg-amber-500/10 backdrop-blur-sm text-amber-300 text-xs sm:text-sm tracking-wider uppercase"
+          class="inline-flex items-center gap-2 mb-6 px-4 sm:px-5 rounded-full border border-amber-400/50 bg-amber-500/10 backdrop-blur-sm text-amber-300 text-xs sm:text-sm tracking-wider uppercase"
         >
           <i class="fa-solid fa-award"></i>
           Building Sustainable Businesses Across Kenya
@@ -214,7 +212,7 @@
         class="absolute bottom-0 right-0 w-72 h-72 bg-amber-300/10 rounded-full blur-3xl"
       ></div>
 
-      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="relative max-w-7xl mx-auto -mt-20 px-4 sm:px-6 lg:px-8">
         <!-- Heading -->
         <div class="text-center max-w-4xl mx-auto mb-16">
           <span
