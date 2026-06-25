@@ -1,7 +1,7 @@
 <template>
   <section
     id="subsidiaries"
-    class="relative mt-24 py-24 bg-gradient-to-b from-white via-amber-50 to-white overflow-hidden"
+    class="relative mt-10 py-24 bg-gradient-to-b from-white via-amber-50 to-white overflow-hidden"
   >
     <!-- Background Decorations -->
     <div
@@ -38,11 +38,11 @@
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
         <!-- SunRevo -->
         <div
-          class="group bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-500 overflow-hidden border border-gray-100"
+          class="group bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-500 overflow-hidden border border-gray-100 flex flex-col"
         >
           <div class="h-2 bg-gradient-to-r from-amber-500 to-yellow-400"></div>
 
-          <div class="p-8">
+          <div class="p-8 flex flex-col flex-1">
             <div
               class="w-16 h-16 rounded-2xl bg-amber-100 flex items-center justify-center mb-6"
             >
@@ -51,7 +51,7 @@
 
             <h2 class="text-2xl font-bold text-gray-900 mb-4">SunRevo Solar</h2>
 
-            <p class="text-gray-600 leading-relaxed mb-6">
+            <p class="text-gray-600 leading-relaxed mb-6 flex-1">
               Providing solar panels, inverters, battery systems, installation services,
               and renewable energy solutions for homes, businesses, institutions, and
               industrial projects across Kenya.
@@ -59,7 +59,7 @@
 
             <button
               @click="$router.push('/solar')"
-              class="w-full bg-black text-white py-3 rounded-xl hover:bg-amber-600 transition duration-300"
+              class="mt-auto w-full bg-black text-white py-3 rounded-xl hover:bg-amber-600 transition duration-300"
             >
               Learn More
             </button>
@@ -68,11 +68,11 @@
 
         <!-- Packaging -->
         <div
-          class="group bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-500 overflow-hidden border border-gray-100"
+          class="group bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-500 overflow-hidden border border-gray-100 flex flex-col"
         >
           <div class="h-2 bg-gradient-to-r from-amber-500 to-yellow-400"></div>
 
-          <div class="p-8">
+          <div class="p-8 flex flex-col flex-1">
             <div
               class="w-16 h-16 rounded-2xl bg-amber-100 flex items-center justify-center mb-6"
             >
@@ -81,7 +81,7 @@
 
             <h2 class="text-2xl font-bold text-gray-900 mb-4">Mashbah Packaging</h2>
 
-            <p class="text-gray-600 leading-relaxed mb-6">
+            <p class="text-gray-600 leading-relaxed mb-6 flex-1">
               Manufacturers of khaki bags, medical envelopes, brown packaging materials,
               and non-woven bags designed for businesses, institutions, and commercial
               applications.
@@ -89,7 +89,7 @@
 
             <button
               @click="$router.push('/paper')"
-              class="w-full bg-black text-white py-3 rounded-xl hover:bg-amber-600 transition duration-300"
+              class="mt-auto w-full bg-black text-white py-3 rounded-xl hover:bg-amber-600 transition duration-300"
             >
               Learn More
             </button>
@@ -98,11 +98,11 @@
 
         <!-- Aqualina -->
         <div
-          class="group bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-500 overflow-hidden border border-gray-100"
+          class="group bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-500 overflow-hidden border border-gray-100 flex flex-col"
         >
           <div class="h-2 bg-gradient-to-r from-amber-500 to-yellow-400"></div>
 
-          <div class="p-8">
+          <div class="p-8 flex flex-col flex-1">
             <div
               class="w-16 h-16 rounded-2xl bg-amber-100 flex items-center justify-center mb-6"
             >
@@ -111,7 +111,7 @@
 
             <h2 class="text-2xl font-bold text-gray-900 mb-4">Aqualina Water</h2>
 
-            <p class="text-gray-600 leading-relaxed mb-6">
+            <p class="text-gray-600 leading-relaxed mb-6 flex-1">
               Supplying purified bottled drinking water and bulk water delivery services
               through tankers for homes, businesses, institutions, and industrial
               customers.
@@ -119,14 +119,13 @@
 
             <button
               @click="$router.push('/water')"
-              class="w-full bg-black text-white py-3 rounded-xl hover:bg-amber-600 transition duration-300"
+              class="mt-auto w-full bg-black text-white py-3 rounded-xl hover:bg-amber-600 transition duration-300"
             >
               Learn More
             </button>
           </div>
         </div>
       </div>
-
       <!-- Bottom CTA -->
       <div
         class="mt-20 bg-gradient-to-r from-black via-amber-900 to-black rounded-3xl p-8 md:p-12 text-center"
