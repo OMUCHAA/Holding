@@ -1,11 +1,11 @@
 <template>
   <div class="bg-gray-100">
     <section
-      class="relative min-h-screen py-3 flex items-center justify-center overflow-hidden bg-gradient-to-r from-black via-amber-900 to-black text-white"
+      class="relative min-h-screen flex items-center justify-center pt-20 lg:pt-0 overflow-hidden bg-gradient-to-r from-black via-amber-900 to-black text-white"
     >
       <div class="absolute inset-0 bg-black/50"></div>
 
-      <div class="relative z-10 max-w-6xl mx-auto px-6 pt-20 text-center">
+      <div class="relative z-10 max-w-6xl mx-auto pt-2 px-6 text-center">
         <span
           class="inline-flex items-center gap-2 mb-6 px-4 sm:px-5 rounded-full border border-amber-400/50 bg-amber-500/10 backdrop-blur-sm text-amber-300 text-xs sm:text-sm tracking-wider uppercase"
         >
